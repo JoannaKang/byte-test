@@ -4,7 +4,7 @@
 ````
 git clone https://github.com/JoannaKang/byte-test
 ````
-2. Go to checksum folder
+1. Go to checksum folder
 ````
 cd checksum
 ````
