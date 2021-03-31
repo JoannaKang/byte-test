@@ -16,3 +16,9 @@ npm install
 ````
 npm test
 ````
+
+## Sql question answers
+Go to /sql directory
+````
+cd sql
+````
