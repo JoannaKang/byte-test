@@ -1,6 +1,10 @@
 # byte-test
 ## How to run test for checksum
-1. Go to checksum folder
+0. Clone repository
+````
+git clone https://github.com/JoannaKang/byte-test
+````
+2. Go to checksum folder
 ````
 cd checksum
 ````
