@@ -40,18 +40,18 @@ INSERT INTO fb_profile (
   gender,
   last_ad_referral)
 VALUES (
-'asdasdfasdf',
-'Joanna', 
-'Kang', 
-'https://example.com/13055603_10105219398495383_8237637584159975445_n.jpg',
-'en_UK',
--7,
-'female',
-'{
-    "source": "ADS",
-    "type": "OPEN_THREAD",
-    "ad_id": "6045246247433"
-}'
+  'asdasdfasdf',
+  'Joanna', 
+  'Kang', 
+  'https://example.com/13055603_10105219398495383_8237637584159975445_n.jpg',
+  'en_UK',
+  -7,
+  'female',
+  '{
+      "source": "ADS",
+      "type": "OPEN_THREAD",
+      "ad_id": "6045246247433"
+  }'
 )
 
 -- Test: update table

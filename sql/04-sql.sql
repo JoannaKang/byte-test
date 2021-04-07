@@ -1,9 +1,9 @@
-create or replace function get_user_visit_info(id text, visit_month integer, state_name text)
-returns integer
-language plpgsql
-as
+CREATE OR replace FUNCTION get_user_visit_info(id text, visit_month integer, state_name text)
+RETURNS integer
+LANGUAGE plpgsql
+AS
 $$
-declare event_count integer;
+DECLARE event_count INTEGER;
 begin
   SELECT count(*) into event_count FROM app_events
   WHERE bot_id = id

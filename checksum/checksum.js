@@ -50,7 +50,7 @@ export function checkSumTsv (filename) {
     const min = Math.min(...convertedNumbers);
 
     const difference = max - min
-    result += difference
+    result += difference;
   }
   return result;
 }
